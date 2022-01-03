@@ -1,0 +1,28 @@
+{
+  "name": "reverse-int",
+  "version": "1.0.0",
+  "description": "revers int",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nekipel/reverse-int.git"
+  },
+  "keywords": [
+    "revers",
+    "int",
+    "nodeJS"
+  ],
+  "author": "Anatoly Nekipelov <nekipelovaa@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nekipel/reverse-int/issues"
+  },
+  "homepage": "https://github.com/Nekipel/reverse-int#readme",
+  "dependencies": {
+    "jest": "^27.4.5",
+    "mocha": "^9.1.3"
+  }
+}
