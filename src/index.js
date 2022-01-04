@@ -4,7 +4,7 @@
 // export function reverse()
 
 module.exports = (num) => {
-    let NumRev = num.toString(10).split("");
+    let NumRev = Math.abs(num).toString(10).split("");
     NumRev = NumRev.reverse().join("");
     return Number(NumRev);
 };

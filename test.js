@@ -21,4 +21,8 @@ describe("Basic tests", () => {
         let num4 = newNum(95034);
         assert.deepEqual(num4,43059);
     });
+    it("Test should pass if return reverse number 43059 for -95034", () => {
+        let num4 = newNum(-95034);
+        assert.deepEqual(num4,43059);
+    });
 });
