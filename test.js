@@ -2,7 +2,7 @@
 const chai = require("chai");
 const assert = chai.assert;
 chai.config.truncateThreshold=0;
-const newNum = require("./index");
+const newNum = require("./src/index");
 
 describe("Basic tests", () => {
     it("Test should pass if return reverse number 321 for 123", () => {
